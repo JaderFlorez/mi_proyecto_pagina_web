@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jader Flórez</title>
+  <!-- Fuente moderna (puedes cambiarla en styles.css si quieres otra) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <!-- Vincular archivo CSS -->
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- ==========================
+       HEADER / MENÚ SUPERIOR
+       ========================== -->
+  <header class="header">
+    <div class="container header-inner">
+      <!-- Logo (cambia la ruta a tu logo real) -->
+      <a href="index.html" class="logo">
+        <img src="contenido_multimedia/logo.png" alt="Logo del estudio">
+      </a>
+      <!-- Navegación -->
+      <nav class="nav">
+        <ul>
+          <li><a href="#sobre-nosotros">Sobre mí</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#proyectos">Experiencia</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ==========================
+       HERO PRINCIPAL
+       ========================== -->
+  <section class="hero">
+    <!-- Aquí puedes poner una imagen de fondo o un video -->
+    <!-- Imagen -->
+    <!--img src="assets/images/hero-image.jpg" alt="Imagen hero" class="hero-bg">
+    <!-Video (descomenta si prefieres video de fondo) -->
+    <video autoplay muted loop class="hero-bg">
+    <source src="contenido_multimedia/video_hero.mp4" type="video/mp4">
+    </video>
+
+    <div class="hero-content">
+      <h1>Psicólogo & Especialista en Derecho Penal</h1>
+      <p>Acompañando procesos humanos y educativos con responsabilidad y compromiso.</p>
+    </div>
+  </section>
+
+  <!-- ==========================
+       SOBRE NOSOTROS
+       ========================== -->
+  <section id="sobre-nosotros" class="sobre">
+    <div class="container">
+      <div class="sobre-texto">
+        <h2>Sobre mí</h2>
+        <p> Soy Jader Andrés Flórez López , psicólogo con especialización en Derecho Penal y Criminología.
+        Mi experiencia integra el acompañamiento clínico, la intervención en contextos sociales complejos y el apoyo a comunidades educativas.
+        He trabajado con adolescentes y jóvenes en procesos judiciales, población en condición de calle con discapacidad mental, atención en crisis (Código Dorado), y acompañamiento en instituciones educativas.
+        Mi enfoque combina la escucha clínica, el análisis social y la construcción de estrategias que aportan a la salud mental y la convivencia.
+        </p>
+      </div>
+      <!-- Imagen lateral -->
+      <div class="sobre-img">
+        <img src="contenido_multimedia/foto_perfil.jpeg" alt="Imagen sobre nosotros">
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================
+       SERVICIOS
+       ========================== -->
+  <section id="servicios" class="servicios">
+    <div class="container">
+      <h2>Servicios</h2>
+      <div class="servicios-grid">
+        <!-- Servicio 1 -->
+        <div class="servicio-item">
+          <h3>Atención clínica individual y grupal</h3>
+          <p>Intervención psicológica en crisis, acompañamiento terapéutico y construcción de casos clínicos.</p>
+        </div>
+        <!-- Servicio 2 -->
+        <div class="servicio-item">
+          <h3>Asesoría en contextos judiciales y forenses</h3>
+          <p>Elaboración de informes, conceptos psicológicos y apoyo en procesos vinculados al sistema penal.</p>
+        </div>
+        <!-- Servicio 3 -->
+        <div class="servicio-item">
+          <h3>Acompañamiento institucional y educativo</h3>
+          <p>Asesoría a colegios, proyectos institucionales obligatorios, mediación escolar y formación en salud mental.</p>
+        </div>
+    </div>
+  </section>
+
+  <!-- ==========================
+       PROYECTOS / PORTAFOLIO
+       ========================== -->
+  <section id="proyectos" class="proyectos">
+    <div class="container">
+      <h2>Experiencia</h2>
+      <div class="proyectos-grid">
+        <!-- Proyecto 1 -->
+        <div class="proyecto">
+          <img src="contenido_multimedia/proyecto1.jpeg" alt="Proyecto 1">
+          <div class="proyecto-info">
+            <h3>Código Dorado (Hospital Alma Máter, Medellín)</h3>
+            <p>Intervención en crisis y primeros auxilios psicológicos.</p>
+          </div>
+        </div>
+        <!-- Proyecto 2 -->
+        <div class="proyecto">
+          <img src="contenido_multimedia/proyecto2.jpeg" alt="Proyecto 2">
+          <div class="proyecto-info">
+            <h3>Centro de Atención al Joven Carlos Lleras Restrepo</h3>
+            <p>Acompañamiento pedagógico-terapéutico a adolescentes en conflicto con la ley.</p>
+          </div>
+        </div>
+        <!-- Proyecto 3 -->
+        <div class="proyecto">
+          <img src="contenido_multimedia/proyecto4.jpeg" alt="Proyecto 3">
+          <div class="proyecto-info">
+            <h3>Corporación Ecosesa - Habitante de Calle:</h3>
+            <p>Atención a población en situación de calle con trastorno mental crónico.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================
+       CONTACTO
+       ========================== -->
+  <section id="contacto" class="contacto">
+    <div class="container">
+      <h2>Contacto</h2>
+      <p>Si quieres conocer más de mi trabajo o necesitas apoyo psicológico, académico o institucional, no dudes en escribirme.
+      Estoy disponible para consultas, asesorías y colaboraciones.</p>
+      <form action="https://formsubmit.co/florezlopezjaderandres@gmail.com" method="POST" class="contact-form">
+    <input type="text" name="name" placeholder="Tu nombre" required>
+    <input type="email" name="email" placeholder="Tu correo" required>
+    <textarea name="message" rows="5" placeholder="Escribe tu mensaje..." required></textarea>
+    <button type="submit">Enviar</button>
+</form>
+    </div>
+  </section>
+
+  <!-- ==========================
+       FOOTER
+       ========================== -->
+ <footer class="footer">
+  <div class="container">
+    <p>© 2025 Jader Flórez. Todos los derechos reservados.</p>
+  </div>
+
+  <!-- Botones flotantes -->
+  <div class="social-floating">
+    <!-- Instagram -->
+    <a href="https://www.instagram.com/jaderflopez" target="_blank" class="btn-instagram">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <!-- WhatsApp -->
+    <a href="https://wa.me/573124751586" target="_blank" class="btn-whatsapp">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <!-- YouTube -->
+    <a href="https://www.youtube.com/@jaderflopez" target="_blank" class="btn-youtube">
+      <i class="fab fa-youtube"></i>
+    </a>
+  </div>
+</footer>
+
+</body>
+</html>
